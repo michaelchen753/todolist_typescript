@@ -1,0 +1,18 @@
+.completed{
+    text-decoration: line-through;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-title{
+    align-self: start;
+}
+.list-item .item-title {    
+    align-self: flex-start;
+    cursor: pointer;    
+}
+.closeBtn {
+    width:40px;
+}

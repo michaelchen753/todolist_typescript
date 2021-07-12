@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+h1 {
+  margin:2rem;
+}
+
+.add-todo-form{
+  margin:2rem;
+}
+.green {
+  color:green;
+
+}
+
+.red {
+  color:red;
+  text-decoration:line-through;
+}
+  
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App {
+  max-width: 800px;
+  width:60%;
+  margin:5rem auto;
+}
+
+form button {
+  padding:4px 14px;
+  margin-left: 1rem;
+}
+.item-title{
+  display: inline;
+  width:60%;
+
+  font-size: 1.2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list-item button {
+  color:red;
+  font-size: 1.3em;
+  margin:0.1em 0.3em;
+  padding:0 8px;
+  border: none;
+  background-color: transparent;
+
+}
+
+button {
+  cursor: pointer;
+}
+input {
+  margin: 0 0.3em;
+}
+
+li {
+  text-align: start;
+}
+
+.item-title label {
+  width: 80%;
+}
